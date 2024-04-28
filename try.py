@@ -112,14 +112,14 @@ def user_input(user_question):
     next_question = predict_next_question(user_question)
     
     # Display the predicted next question in the sidebar
-    st.sidebar.header("Predicted Next Question")
+    st.sidebar.header("Smart Suggestions")
     st.sidebar.write(next_question)
 
 # Main function
 def main():
-    st.set_page_config("AI Financial Analyst💼")
-    st.header("Ask you question about annual report🏛️")
-    st.subheader('TCS Annal Report is Added you can ask question about it 🧐')
+    st.set_page_config("ReportBot💼")
+    st.header("Find Insights in Annual Reports with Ease🏛️")
+    st.subheader('How can I help you with the report?🧐')
 
     # User input
     user_question = st.text_input("Ask a Question ")
